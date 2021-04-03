@@ -62,9 +62,10 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
+  githubID: Wang-Jifei
   clientID: b02992b5a64f4aefb289                            #生成的clientID
   clientSecret: 933a1595d5a382cad880c3da0deee1731529fd0c    #生成的clientSecret
-  repo: Wang-Jifei.github.io    #仓库名称
+  repo: blog-comments    #仓库名称
   owner: Wang-Jifei    #github用户名
   admin: Wang-Jifei
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
