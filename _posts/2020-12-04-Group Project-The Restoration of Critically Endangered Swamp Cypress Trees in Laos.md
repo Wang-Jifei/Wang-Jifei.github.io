@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Group Project: The Restoration of Critically Endangered Swamp Cypress Trees in Laos
+title:      The Restoration of Critically Endangered Swamp Cypress Trees in Laos
 subtitle:   GE5211 - Dynamic Environments - Group1
 date:       4/12/2020
 author:     Xiang Jing Ang, Ting Zhang, Ren Wei Fung Jonathan, Jifei Wang, Hao Huang
