@@ -1,0 +1,19 @@
+---
+layout:     post
+title:      Spatio-temporal Analysis of Air Quality Dynamics and Urban Heat Island effects during the COVID-19
+subtitle:   GE5228 Big Spatial Data and Analytics
+date:       31/10/2020
+author:     Jifei Wang
+header-img: img/the-first.png
+catalog:   true
+tags:
+    - Coursework
+---
+## Abstract
+The outbreak of novel coronavirus pneumonia is the most serious global issue in 2020, causing enormous impacts on various aspects
+of human society from public health to economic growth. The ecological environment has also been affected due to the transformation of
+human activities during the epidemic period. The implementation of the ‘Lockdown’ and ‘Stay-in-Home’ policies have reduced the pollution
+emissions from transport and commercial areas, thus altered the urban environment. Based on the analysis of the temporal and spatial
+distribution of the COVID-19, we studied the changes of the air and thermal environment in Wuhan City and New York City in 2020.
+Combining spatial interpolation and spatial clustering analysis, we further analyzed the dynamics of air pollution and urban heat
+island effect to evaluate environmental variations.
