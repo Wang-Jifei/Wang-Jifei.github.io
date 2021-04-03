@@ -9,7 +9,6 @@ catalog:   true
 tags:
     - Coursework
 ---
-# The Restoration of Critically Endangered Swamp Cypress Trees in Laos
 ## Abstract
 Glyptostrobus pensilis or Asian Swamp Cypress is a critically endangered conifer species, with remaining trees in the wild found mostly in Laos. It is important to study this species as surveys have shown that 400-1000 trees have been felled in the last ~50 years, and only less than 400 trees remain globally (Coffman, 2015). Glyptostrobus is also dubbed as a “living fossil” due to its great significance in the other fields of study like paleoclimate, paleoecology and geology.  
 
