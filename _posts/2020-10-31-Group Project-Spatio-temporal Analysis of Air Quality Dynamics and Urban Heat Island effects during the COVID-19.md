@@ -151,3 +151,4 @@ The limitation and future improvements in our study are as follows:
 Our study provides insights for the research of environmental consequences of COVID-19 on a local scale. Despite the initial finding of our analysis, more correlations between critical environmental variables and disease spread can be explored in the future. Since the adaptation to long-last coronavirus crisis will be a new normal for human society, the statistical and quantitative analysis should be conducted to assist the policy-making and environmental protection.
 
 **Download Full Project Report** [Here](https://drive.google.com/file/d/1xLSV-lBf0mIddUhC6eLoe9m1tkyt7PbI/view?usp=sharing)
+**Download Presentation Slides** [Here](https://drive.google.com/file/d/145mPY2VUuhgG3nfWGa7utFRa_QEyJzL3/view?usp=sharing)
