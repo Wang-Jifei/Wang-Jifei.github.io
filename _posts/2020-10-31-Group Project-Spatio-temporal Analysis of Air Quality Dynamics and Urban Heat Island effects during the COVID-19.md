@@ -25,7 +25,3 @@ The objectives of our project are summarized as follows:
 1)	To understand the temporal and spatial distribution of COVID-19 cases in the two cities during the outbreak.
 2)	To assess the influence of epidemic spread based on the air quality level using critical air quality indicators, e.g. PM2.5, NO2, CO, SO2, O3.
 3)	To investigate the spatial pattern of air pollutants and understand the Urban Heat Island phenomenon under the impact of COVID-19 spread.
-![avatar](/img/post/1_2.png)
-![avatar](/img/post/1_3.png)
-![avatar](/img/post/1_4.png)
-![avatar](/img/post/1_5.png)
