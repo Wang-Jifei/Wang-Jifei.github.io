@@ -27,19 +27,13 @@ The objectives of our project are summarized as follows:
 3. To investigate the spatial pattern of air pollutants and understand the Urban Heat Island phenomenon under the impact of COVID-19 spread.
    ![avatar](/img/post/1_2.png)
 
-## Data
-
-#### Study Area
+## Study Area
 
 Wuhan City, located in Hubei Province, was the earliest outbreak region in China. The Yangtze River flows through the center of the city, dividing the central urban area of Wuhan into three regions. The city has a population of over 11 million and underwent a lockdown from January 23 to April 8. Until September 8, there were 68,139 cases in total in Wuhan during the epidemic outbreak ([Peng et al., 2020](https://doi.org/10.3390/ijgi9060402)). The geographic location of Wuhan is 113°41’20” E ~ 115°6’40” E, 29°58’30” N ~ 31°20’25” N.
 
- ![avatar](/img/post/1_3.png)
-
 New York City, located at the southern tip of the U.S state of New York, became the center of the epidemic at the end of March 2020. New York City has a highly dense population of 8.3 million people spread across five boroughs interconnected by a subway system that also extends into neighboring areas ([U.S. Census Bureau, 2020](https://www.census.gov/quickfacts/newyorkcitynewyork)). According to the New York City had 445,071 cases as of September 8, 2020. The geographic location of New York City is 73°41’50” W ~ 74°15’25” W, 40°29’30” S ~ 40°55’10” S.
 
-![avatar](/img/post/1_4.png)
-
-#### Data
+## Data
 
 In our project, the comprehensive analysis of various environmental factors influenced by COVID-19 control strategies is based on multi-source data:
 
@@ -55,13 +49,8 @@ The Landsat 8 satellite images for the year 2019, 2020 are provided by the U.S. 
 
 
 
-## Results and Analysis
-
-### COVID-19 cases spatial analysis
-
+## COVID-19 cases spatial analysis
 #### COVID-19 cases distribution in China and the U.S.
-
-##### Spatial patterns
 
 According to the up-to-date data of total cases in China and the United States, the epidemic spread trend in these two countries has different features. China has controlled the epidemic spread within Hubei province since April 2020, whereas the U.S. is still under stressful coronavirus impacts. Most cases in China concentrate in Hubei province and Hongkong. Since Wuhan is the original outbreak city of COVID-19 in China, the death and positive cases mainly distributed in the urban area of Wuhan City. In the case of the New York State in the U.S., the cases accumulated in several counties. New York City, as one of the earliest regions in the U.S. hit by COVID-19, has an enormous number of the infected population.
 
@@ -69,13 +58,12 @@ According to the up-to-date data of total cases in China and the United States, 
 
 ![avatar](/img/post/1_8.png)
 
-##### Autocorrelation analysis
 
 In our experiment, the spatial autocorrelation of COVID-19 cases between cities has been estimated through Moran’I index by using the formula (1). The values of Moran coefficients are around the interval of [0, 1], since there is a positive correlation among the confirmed cases according to the geographical structure, and its spatial distribution has prominent agglomeration characteristics. The increase of confirmed pneumonia cases in one region will inevitably lead to the increasing cases in adjacent areas, which means that a positive spill-over effect occurs. Thus, regions adjacent to COVID-19 hotspots are at higher risk.
 
-![avatar](/img/post/1_9.png)
+![avatar](/img/post/1_9.PNG)
 
-![avatar](/img/post/1_10.png)
+![avatar](/img/post/1_10.PNG)
 
 #### COVID-19 cases analysis in Wuhan
 
@@ -83,21 +71,21 @@ The COVID-19 pandemic originated with a cluster of mysterious, suspected pneumon
 
 The outbreak started from the urban districts and gradually spread to the suburban and rural areas across the disease pandemic periods. There were significant geographic differences in rates of confirmed cases, with the highest rates in the urban districts such as Jiangan, Jianghan, Qiaokou and Wuchang district.
 
-![avatar](/img/post/1_11.png)
+![avatar](/img/post/1_11.PNG)
 
-![avatar](/img/post/1_12.png)
+![avatar](/img/post/1_12.PNG)
 
 #### COVID-19 cases analysis in New York City
 
 The first case relating to the COVID-19 pandemic was confirmed in New York City in March 2020. At the end of March, the infected cases increased to 33,983 at an unpredictable speed. By April, the city had more confirmed coronavirus cases than China, the U.K., or Iran, and by May, had more cases than any country other than the United States ([NPR., March 24, 2020](https://www.npr.org/2020/03/24/820610818/new-york-city-u-s-epicenter-braces-for-peak)). On 20 March, the governor's office issued an executive order closing down non-essential businesses. The pause order caused the increasing unemployment rate and many social issues, whereas the infected cases of COVID-19 multiplied every day. When the city began its first phase of reopening on 8 June, the total cases had reached 211,728, accounting for 2% of the total population in NYC. From the distribution map in the zip code area, some regions hold a high infected population. To better understand the spatial correlations, the hotspot analysis was imple
 
-![avatar](/img/post/1_13.png)
+![avatar](/img/post/1_13.PNG)
 
-![avatar](/img/post/1_14.png)
+![avatar](/img/post/1_14.PNG)
 
-![avatar](/img/post/1_15.png)
+![avatar](/img/post/1_15.PNG)
 
-### Air quality dynamics analysis
+## Air quality dynamics analysis
 
 Based on the temporal and spatial analysis of COVID-19 cases in two cities, we executed the evaluation of environmental variables including air pollutants and land surface temperature. Due to the retention of air pollutants, the air pollution dynamics is analysed monthly to compare the air quality during the COVID-19. We chose observation time span of six months. Given that the time of the outbreak in two cities is different, we evaluated the air quality data of Wuhan City and the New York City from from 1st January to 30th June. The monitoring items are PM2.5, PM10, SO2, NO2, CO and O3. The average air quality index (AQI) is a dimensionless index, which is calculated based on an average of six pollutants measured.
 
@@ -137,7 +125,7 @@ SO2, NO2 and CO primarily get in the air from the burning of fuel. NO2 forms fro
 
 ![avatar](/img/post/1_17_5.png)
 
-### Urban Heat Island effects during pandemic
+## Urban Heat Island effects during pandemic
 
 
 
@@ -147,11 +135,11 @@ The temporal maps of LST distribution are produced to make a comparison between 
 
 Wuhan City, known as one of the ‘Stove City’ in China, has obvious UHI effects in central urban area. From the figure 3.16(a), the distribution patterns of LST are similar in February and March. The rural area has a higher temperature than the urban area, which is assumed as a cold island effect caused by the difference in heat emissions in the urban and rural area. Through the comparison of LST in August 2019 and 2020, we found that the UHI effect is severe in 2020. Apart from the influence of global warming, the massive work resumption after months lockdown is likely to be one of the main causes for the increase of temperature in the urban area in Wuhan City.
 
- ![avatar](/img/post/1_18.png)
+ ![avatar](/img/post/1_18.png "2019 and 2020 LST maps of New York City")
 
 Contrary to Wuhan City, the UHI effect in New York City seems to mitigate in 2020 compared with the same time in 2019. Previous studies show that the epidemic influenced normal human activities. The decreased flow in the industrial and commercial area caused lower emission of CO2. Although the change is not significant, it is safe to conclude that the COVID-19 affected the environmental variations in Wuhan City and New York City.
 
-![avatar](/img/post/1_19.png)
+![avatar](/img/post/1_19.png "2019 and 2020 LST maps of New York City")
 
 ## Discussion
 
@@ -166,5 +154,6 @@ The limitation and future improvements in our study are as follows:
 3. The air and thermal factors     are inseparable parts for the environmental assessment of urban context,     which directly affects public health and economic development. The     relationship between these two kinds of factors is another meaningful     topic to study.
 
 
-
 Our study provides insights for the research of environmental consequences of COVID-19 on a local scale. Despite the initial finding of our analysis, more correlations between critical environmental variables and disease spread can be explored in the future. Since the adaptation to long-last coronavirus crisis will be a new normal for human society, the statistical and quantitative analysis should be conducted to assist the policy-making and environmental protection.
+
+## Reference
