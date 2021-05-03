@@ -152,28 +152,52 @@ Our study provides insights for the research of environmental consequences of CO
 
 #### Download Full Project Report [Here](files/GE5228_Final_Report.pdf)
 ## Reference
-Anselin, L. (1995). Local indicators of spatial association-LISA Geographical Analysis 27 (2): 93-115. In.
+AAnselin, L. (1995). Local indicators of spatial association-LISA Geographical Analysis 27 (2): 93-115. In.
+
 Bao, R., & Zhang, A. (2020). Does lockdown reduce air pollution? Evidence from 44 cities in northern China. Science of the Total Environment, 731, 139052.
+
 Belkhiri, L., Tiri, A., & Mouni, L. (2020). Spatial distribution of the groundwater quality using kriging and Co-kriging interpolations. Groundwater for Sustainable Development, 11, 100473.
+
 Cordes, J., & Castro, M. C. (2020). Spatial analysis of COVID-19 clusters and contextual factors in New York City. Spatial and Spatio-temporal Epidemiology, 34, 100355.
+
 Franch-Pardo, I., Napoletano, B. M., Rosete-Verges, F., & Billa, L. (2020). Spatial analysis and GIS in the study of COVID-19. A review. Science of the Total Environment, 739, 140033.
+
 Huang, R., Liu, M., & Ding, Y. (2020). Spatial-temporal distribution of COVID-19 in China and its prediction: A data-driven modeling analysis. The Journal of Infection in Developing Countries, 14(03), 246-253.
+
 Kang, D., Choi, H., Kim, J.-H., & Choi, J. (2020). Spatial epidemic dynamics of the COVID-19 outbreak in China. International Journal of Infectious Diseases, 94, 96-102.
+
 Kuttappan, J., & Chen, Z. (2020). Changing Social Patterns during Covid-19.
+
 Li, H., Calder, C. A., & Cressie, N. (2007). Beyond Moran's I: testing for spatial dependence based on the spatial autoregressive model. Geographical Analysis, 39(4), 357-375.
+
 Mitchel, A. (2005). The ESRI Guide to GIS analysis, Volume 2: Spartial measurements and statistics: ESRI press.
+
 Mukherjee, S., & Debnath, A. (2020). Correlation between Land Surface Temperature and Urban Heat Island with COVID-19 in New Delhi, India.
-Nakada, L. Y. K., & Urban, R. C. (2020). COVID-19 pandemic: Impacts on the air quality during the partial lockdown in São Paulo state, Brazil. Science of the Total Environment, 730, 139087.
+
+Nakada, L. Y. K., & Urban, R. C. (2020). COVID-19 pandemic: Impacts on the air quality during the partial lockdown in São
+
+Paulo state, Brazil. Science of the Total Environment, 730, 139087.
+
 Ozili, P. K., & Arun, T. (2020). Spillover of COVID-19: impact on the Global Economy. Available at SSRN 3562570.
+
 Peng, Z., Wang, R., Liu, L., & Wu, H. (2020). Exploring urban spatial features of COVID-19 transmission in Wuhan based on social media data. ISPRS International Journal of Geo-Information, 9(6), 402.
+
 Rodríguez-Urrego, D., & Rodríguez-Urrego, L. (2020). Air quality during the COVID-19: PM2. 5 analysis in the 50 most polluted capital cities in the world. Environmental Pollution, 115042.
+
 Roy, D. P., Wulder, M. A., Loveland, T. R., Woodcock, C. E., Allen, R. G., Anderson, M. C., . . . Kennedy, R. (2014). Landsat-8: Science and product vision for terrestrial global change research. Remote sensing of Environment, 145, 154-172.
 Ruiz Estrada, M. A. (2020). Economic Waves: The Effect of the Wuhan COVID-19 on the World Economy (2019-2020). Available at SSRN 3545758.
+
 Wang, M., Zhang, Z., He, G., Wang, G., Long, T., & Peng, Y. (2016). An enhanced single‐channel algorithm for retrieving land surface temperature from Landsat series data. Journal of Geophysical Research: Atmospheres, 121(19), 11,712-711,722.
+
 Wang, Y., Ying, Q., Hu, J., & Zhang, H. (2014). Spatial and temporal variations of six criteria air pollutants in 31 provincial capital cities in China during 2013–2014. Environment international, 73, 413-422.
+
 Warokka, A., Sjahruddin, H., Sriyanto, S., Noerhartati, E., & Saddhono, K. (2020). Digital marketing support and business development using online marketing tools: An experimental analysis. International Journal of Psychosocial Rehabilitation, 24(1), 1181-1188.
-Yang, Q., Huang, X., & Tang, Q. (2019). The footprint of urban heat island effect in 302 Chinese cities: Temporal trends and associated factors. Science of the Total Environment, 655, 652-662. 
+
+Yang, Q., Huang, X., & Tang, Q. (2019). The footprint of urban heat island effect in 302 Chinese cities: Temporal trends and associated factors. Science of the Total Environment, 655, 652-662.
 Yuan, L. (2020). Coronavirus crisis exposes cracks in China’s facade of unity. The New York Times.
+
 Zhang, H., Di, B., Liu, D., Li, J., & Zhan, Y. (2019). Spatiotemporal distributions of ambient SO2 across China based on satellite retrievals and ground observations: Substantial decrease in human exposure during 2013–2016. Environmental research, 179, 108795.
+
 Zhang, X., Estoque, R. C., & Murayama, Y. (2017). An urban heat island study in Nanchang City, China based on land surface temperature and social-ecological variables. Sustainable cities and society, 32, 557-568.
+
 Zhang, X., Tang, M., Guo, F., Wei, F., Yu, Z., Gao, K., . . . Chen, K. (2021). Associations between air pollution and COVID-19 epidemic during quarantine period in China. Environmental Pollution, 268, 115897.
