@@ -136,6 +136,7 @@ Wuhan City, known as one of the ‘Stove City’ in China, has obvious UHI effec
 Contrary to Wuhan City, the UHI effect in New York City seems to mitigate in 2020 compared with the same time in 2019. Previous studies show that the epidemic influenced normal human activities. The decreased flow in the industrial and commercial area caused lower emission of CO2. Although the change is not significant, it is safe to conclude that the COVID-19 affected the environmental variations in Wuhan City and New York City.
 
 ![2019 and 2020 LST maps of New York City](/img/post/1_19.png "2019 and 2020 LST maps of New York City")
+<center>2019 and 2020 LST maps of New York City</center>
 
 ## Discussion
 
