@@ -65,7 +65,7 @@ In our experiment, the spatial autocorrelation of COVID-19 cases between cities 
 
 ![avatar](/img/post/1_10.PNG)
 
-#### COVID-19 cases analysis in Wuhan
+#### Wuhan
 
 The COVID-19 pandemic originated with a cluster of mysterious, suspected pneumonia cases in the city of Wuhan, the capital of Hubei, China in December 2019. The potential disease outbreak soon drew nationwide attention. On 23rd January 2020, the government announced lockdown order in Wuhan City. By 29th January, the virus spread to all provinces of mainland China([Yuan, Li, 28 January 2020](https://www.nytimes.com/2020/01/28/business/china-coronavirus-communist-party.html)). The number of cases increased rapidly in February until the pandemic was under control in early March. By the time Wuhan ended lockdown order, over 2575 died from the coronavirus infection-associated pneumonia, and 50,008 were confirmed to have been infected in Wuhan City.
 
@@ -75,7 +75,7 @@ The outbreak started from the urban districts and gradually spread to the suburb
 
 ![avatar](/img/post/1_12.PNG)
 
-#### COVID-19 cases analysis in New York City
+#### New York City
 
 The first case relating to the COVID-19 pandemic was confirmed in New York City in March 2020. At the end of March, the infected cases increased to 33,983 at an unpredictable speed. By April, the city had more confirmed coronavirus cases than China, the U.K., or Iran, and by May, had more cases than any country other than the United States ([NPR., March 24, 2020](https://www.npr.org/2020/03/24/820610818/new-york-city-u-s-epicenter-braces-for-peak)). On 20 March, the governor's office issued an executive order closing down non-essential businesses. The pause order caused the increasing unemployment rate and many social issues, whereas the infected cases of COVID-19 multiplied every day. When the city began its first phase of reopening on 8 June, the total cases had reached 211,728, accounting for 2% of the total population in NYC. From the distribution map in the zip code area, some regions hold a high infected population. To better understand the spatial correlations, the hotspot analysis was imple
 
@@ -89,7 +89,7 @@ The first case relating to the COVID-19 pandemic was confirmed in New York City 
 
 Based on the temporal and spatial analysis of COVID-19 cases in two cities, we executed the evaluation of environmental variables including air pollutants and land surface temperature. Due to the retention of air pollutants, the air pollution dynamics is analysed monthly to compare the air quality during the COVID-19. We chose observation time span of six months. Given that the time of the outbreak in two cities is different, we evaluated the air quality data of Wuhan City and the New York City from from 1st January to 30th June. The monitoring items are PM2.5, PM10, SO2, NO2, CO and O3. The average air quality index (AQI) is a dimensionless index, which is calculated based on an average of six pollutants measured.
 
-#### Air pollutants spatio-temporal patterns in Wuhan
+#### Wuhan
 
 To visually demonstrate of the air pollution variation, we first employed a map tool in AcGIS Pro to graphical depict the distribution of pollutants concentrations. Wuhan contains seventeen sub-districts, which concludes Jiang’an (JA), Jianghan (JH), Qiaokou (QK), Hanyang (HY), Wuhan Economic Technological Development District (WED), Hongshan (HS), East Lake High-Tech Development District (EHD), Wuchang (WC), East-Lake Ecotourism Scenic District (EES), Qingshan (QS), Wuhan Chemical Industry Park (WCIP), Dongxihu (DXH), Xinzhou (XZ), Huangpi (HP), Jiangxia (JX), Caidian(CD), and Hannan(HN). As illustrated in Figure 7-Figure 14, the spatial-temporal distribution of different air pollutants was significantly heterogeneous among districts. Specifically, the concentrations of five air pollutants during the lockdowns appeared to be much lower than concentrations on regular days, which offered supportive evidence of the pollution reduction effects of travel restrictions.
 
@@ -107,7 +107,7 @@ The spatial distribution of six criteria pollutants in Wuhan City from January 2
 
 ![avatar](/img/post/1_16_6.png)
 
-####  Air pollutants spatio-temporal patterns in New York City
+#### New York City
 
 The spatial distribution of five criteria pollutants in New York City from January 2020 to June 2020 is shown in below figure. The spatial features of pollution distribution are closely related to urban configuration and land use type. The commercial zones mostly located in Manhattan borough and industrial & manufacturing facilities are separated along the shoreside in Staten Island. The northern and eastern part of New York City like Bronx, Queens and Brooklyn are mostly residential areas.
 
@@ -127,32 +127,25 @@ SO2, NO2 and CO primarily get in the air from the burning of fuel. NO2 forms fro
 
 ## Urban Heat Island effects during pandemic
 
-
-
 The temporal maps of LST distribution are produced to make a comparison between 2019 and 2020 to evaluate the impacts of COVID-19 on the urban thermal environment. Generally, the UHI effect is more significant in summer because of the higher temperature and more CO2 emissions generated from air-conditioning usage.
-
-
 
 Wuhan City, known as one of the ‘Stove City’ in China, has obvious UHI effects in central urban area. From the figure 3.16(a), the distribution patterns of LST are similar in February and March. The rural area has a higher temperature than the urban area, which is assumed as a cold island effect caused by the difference in heat emissions in the urban and rural area. Through the comparison of LST in August 2019 and 2020, we found that the UHI effect is severe in 2020. Apart from the influence of global warming, the massive work resumption after months lockdown is likely to be one of the main causes for the increase of temperature in the urban area in Wuhan City.
 
- ![avatar](/img/post/1_18.png "2019 and 2020 LST maps of New York City")
+ ![2019 and 2020 LST maps of New York City](/img/post/1_18.png "2019 and 2020 LST maps of New York City")
 
 Contrary to Wuhan City, the UHI effect in New York City seems to mitigate in 2020 compared with the same time in 2019. Previous studies show that the epidemic influenced normal human activities. The decreased flow in the industrial and commercial area caused lower emission of CO2. Although the change is not significant, it is safe to conclude that the COVID-19 affected the environmental variations in Wuhan City and New York City.
 
-![avatar](/img/post/1_19.png "2019 and 2020 LST maps of New York City")
+![2019 and 2020 LST maps of New York City](/img/post/1_19.png "2019 and 2020 LST maps of New York City")
 
 ## Discussion
 
 Our data and analysis demonstrate the impact of COVID-19 on environmental variations in epi-centre cities. The illustrations of dynamic changes of air pollution level and urban heat island effects in Wuhan and New York City provide information for the study of socio-ecological consequences of an epidemic outbreak. In conclusion, we found that the restrictions on human activities have interactions with the urban environment. The spatial-temporal patterns of air pollutants distribution were modified, especially in Wuhan City. The air quality reached the standard level due to the lockdown order. However, the resumption of industrial production and commercial activities after June 2020 brought a more severe UHI effect in central urban areas. For New York City, air pollution decreases during the outbreak time, but the change is not as significant as in Wuhan City. In addition, the UHI effects in NYC alleviated in 2020 compared with the same time in 2019. The factors contributing to the weaken UHI effects are complicated. Given the global warming tendency, the responses of the local community to COVID-19 are likely to be one of the social factors that influenced the urban thermal environment.
-
-
 
 The limitation and future improvements in our study are as follows:
 
 1. The correlation analysis     between COVID-19 cases and air pollutants concentration was not conducted     due to the limited data. With the available long-term data, we can make a     more valid analysis of air quality dynamics in the pandemic period.
 2. Social economic data and     human mobility data are supposed to be prompt critical elements for the     investigation of epidemic influence.
 3. The air and thermal factors     are inseparable parts for the environmental assessment of urban context,     which directly affects public health and economic development. The     relationship between these two kinds of factors is another meaningful     topic to study.
-
 
 Our study provides insights for the research of environmental consequences of COVID-19 on a local scale. Despite the initial finding of our analysis, more correlations between critical environmental variables and disease spread can be explored in the future. Since the adaptation to long-last coronavirus crisis will be a new normal for human society, the statistical and quantitative analysis should be conducted to assist the policy-making and environmental protection.
 
