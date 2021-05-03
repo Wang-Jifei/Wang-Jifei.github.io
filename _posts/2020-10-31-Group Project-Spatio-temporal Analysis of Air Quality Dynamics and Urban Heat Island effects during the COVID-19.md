@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Spatiotemporal Analysis of Air Quality Dynamics and Urban Heat Island effects during the COVID-19
-subtitle:   GE5228 Big Spatial Data and Analytics
+subtitle:   GE5228 Big Spatial Data and Analytics Group2
 date:       31/10/2020
 author:     Jifei Wang
 header-img: img/post/1_0.png
