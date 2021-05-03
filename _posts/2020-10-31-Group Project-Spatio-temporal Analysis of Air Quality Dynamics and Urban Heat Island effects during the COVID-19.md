@@ -54,9 +54,9 @@ The Landsat 8 satellite images for the year 2019, 2020 are provided by the U.S. 
 
 According to the up-to-date data of total cases in China and the United States, the epidemic spread trend in these two countries has different features. China has controlled the epidemic spread within Hubei province since April 2020, whereas the U.S. is still under stressful coronavirus impacts. Most cases in China concentrate in Hubei province and Hongkong. Since Wuhan is the original outbreak city of COVID-19 in China, the death and positive cases mainly distributed in the urban area of Wuhan City. In the case of the New York State in the U.S., the cases accumulated in several counties. New York City, as one of the earliest regions in the U.S. hit by COVID-19, has an enormous number of the infected population.
 
-![avatar](/img/post/1_7.png)
+![COVID-19 total cases in mainland China, Hubei provice and Wuhan City in Oct 10, 2020](/img/post/1_7.png "COVID-19 total cases in mainland China, Hubei provice and Wuhan City in Oct 10, 2020")
 
-![avatar](/img/post/1_8.png)
+![COVID-19 total cases in New York State, New York City, U.S. in Oct 10, 2020](/img/post/1_8.png "COVID-19 total cases in New York State, New York City, U.S. in Oct 10, 2020")
 
 
 In our experiment, the spatial autocorrelation of COVID-19 cases between cities has been estimated through Moran’I index by using the formula (1). The values of Moran coefficients are around the interval of [0, 1], since there is a positive correlation among the confirmed cases according to the geographical structure, and its spatial distribution has prominent agglomeration characteristics. The increase of confirmed pneumonia cases in one region will inevitably lead to the increasing cases in adjacent areas, which means that a positive spill-over effect occurs. Thus, regions adjacent to COVID-19 hotspots are at higher risk.
