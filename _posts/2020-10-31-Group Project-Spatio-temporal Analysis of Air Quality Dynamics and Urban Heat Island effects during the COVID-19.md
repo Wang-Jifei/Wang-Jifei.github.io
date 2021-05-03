@@ -22,7 +22,7 @@ Combining spatial interpolation and spatial clustering analysis, we further anal
 To investigate the consequences of epidemic control strategies and understand the environmental changes during the disease outbreak, we focused our research on two typical cities, Wuhan City and New York City, which are both epicentres in the global pandemic. The primary purpose of our project is to make a temporal and spatial comparison of air pollution (i.e. PM2.5) and thermal environment variations (i.e. land surface temperature) in the metropolitan urban area. Using geospatial analysis tools and remote sensing data, we further explore the consequences of COVID-19 based on the distribution characteristics of disease mapping.
 
 The objectives of our project are summarized as follows:
-1)	To understand the temporal and spatial distribution of COVID-19 cases in the two cities during the outbreak.
-2)	To assess the influence of epidemic spread based on the air quality level using critical air quality indicators, e.g. PM2.5, NO2, CO, SO2, O3.
-3)	To investigate the spatial pattern of air pollutants and understand the Urban Heat Island phenomenon under the impact of COVID-19 spread.
+1. To understand the temporal and spatial distribution of COVID-19 cases in the two cities during the outbreak.
+2. To assess the influence of epidemic spread based on the air quality level using critical air quality indicators, e.g. PM2.5, NO2, CO, SO2, O3.
+3. To investigate the spatial pattern of air pollutants and understand the Urban Heat Island phenomenon under the impact of COVID-19 spread.
 ![avatar](/img/post/1_2.png)
