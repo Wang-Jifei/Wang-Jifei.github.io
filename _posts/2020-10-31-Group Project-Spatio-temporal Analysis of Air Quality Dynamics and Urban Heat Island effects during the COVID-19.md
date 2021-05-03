@@ -146,7 +146,7 @@ The limitation and future improvements in our study are as follows:
 
 1. The correlation analysis     between COVID-19 cases and air pollutants concentration was not conducted     due to the limited data. With the available long-term data, we can make a     more valid analysis of air quality dynamics in the pandemic period.
 2. Social economic data and     human mobility data are supposed to be prompt critical elements for the     investigation of epidemic influence.
-3. The air and thermal factors     are inseparable parts for the environmental assessment of urban context,     which directly affects public health and economic development. The     relationship between these two kinds of factors is another meaningful     topic to study.
+3. The air and thermal factors     are inseparable parts for the environmental assessment of urban context,     which directly affects public health and economic development. The     relationship between these two kinds of factors is another meaningful   topic to study.
 
 Our study provides insights for the research of environmental consequences of COVID-19 on a local scale. Despite the initial finding of our analysis, more correlations between critical environmental variables and disease spread can be explored in the future. Since the adaptation to long-last coronavirus crisis will be a new normal for human society, the statistical and quantitative analysis should be conducted to assist the policy-making and environmental protection.
 
