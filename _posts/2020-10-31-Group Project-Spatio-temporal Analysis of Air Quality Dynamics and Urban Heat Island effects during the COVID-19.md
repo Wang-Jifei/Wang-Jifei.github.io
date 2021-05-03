@@ -53,9 +53,9 @@ The Landsat 8 satellite images for the year 2019, 2020 are provided by the U.S. 
 #### COVID-19 cases distribution in China and the U.S.
 
 According to the up-to-date data of total cases in China and the United States, the epidemic spread trend in these two countries has different features. China has controlled the epidemic spread within Hubei province since April 2020, whereas the U.S. is still under stressful coronavirus impacts. Most cases in China concentrate in Hubei province and Hongkong. Since Wuhan is the original outbreak city of COVID-19 in China, the death and positive cases mainly distributed in the urban area of Wuhan City. In the case of the New York State in the U.S., the cases accumulated in several counties. New York City, as one of the earliest regions in the U.S. hit by COVID-19, has an enormous number of the infected population.
-
+<center>**COVID-19 total cases in mainland China, Hubei provice and Wuhan City in Oct 10, 2020**</center>
 ![COVID-19 total cases in mainland China, Hubei provice and Wuhan City in Oct 10, 2020](/img/post/1_7.png "COVID-19 total cases in mainland China, Hubei provice and Wuhan City in Oct 10, 2020")
-
+<center>**COVID-19 total cases in New York State, New York City, U.S. in Oct 10, 2020**</center>
 ![COVID-19 total cases in New York State, New York City, U.S. in Oct 10, 2020](/img/post/1_8.png "COVID-19 total cases in New York State, New York City, U.S. in Oct 10, 2020")
 
 
@@ -130,13 +130,13 @@ SO2, NO2 and CO primarily get in the air from the burning of fuel. NO2 forms fro
 The temporal maps of LST distribution are produced to make a comparison between 2019 and 2020 to evaluate the impacts of COVID-19 on the urban thermal environment. Generally, the UHI effect is more significant in summer because of the higher temperature and more CO2 emissions generated from air-conditioning usage.
 
 Wuhan City, known as one of the ‘Stove City’ in China, has obvious UHI effects in central urban area. From the figure 3.16(a), the distribution patterns of LST are similar in February and March. The rural area has a higher temperature than the urban area, which is assumed as a cold island effect caused by the difference in heat emissions in the urban and rural area. Through the comparison of LST in August 2019 and 2020, we found that the UHI effect is severe in 2020. Apart from the influence of global warming, the massive work resumption after months lockdown is likely to be one of the main causes for the increase of temperature in the urban area in Wuhan City.
-
+<center>**LST maps of Wuhan in 2019, 2020**</center>
  ![2019 and 2020 LST maps of New York City](/img/post/1_18.png "2019 and 2020 LST maps of New York City")
 
 Contrary to Wuhan City, the UHI effect in New York City seems to mitigate in 2020 compared with the same time in 2019. Previous studies show that the epidemic influenced normal human activities. The decreased flow in the industrial and commercial area caused lower emission of CO2. Although the change is not significant, it is safe to conclude that the COVID-19 affected the environmental variations in Wuhan City and New York City.
-
+<center>**LST maps of New York City in 2019, 2020**</center>
 ![2019 and 2020 LST maps of New York City](/img/post/1_19.png "2019 and 2020 LST maps of New York City")
-<center>2019 and 2020 LST maps of New York City</center>
+
 
 ## Discussion
 
