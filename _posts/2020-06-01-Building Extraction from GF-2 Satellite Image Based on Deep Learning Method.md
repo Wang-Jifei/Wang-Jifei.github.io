@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Building Extraction from GF-2 Satellite Image Based on Deep Learning Method
-subtitle:   Undergraduate Final Project
+subtitle:   Undergraduate Final Thesis
 date:       01/06/2020
 author:     Jifei Wang
 header-img: img/post/0_0.PNG
