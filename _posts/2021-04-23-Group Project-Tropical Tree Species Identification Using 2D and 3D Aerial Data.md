@@ -38,6 +38,6 @@ The previous studies concerning tree species classification using UAV datasets h
 
 **Github repository** [Tree species classification](https://github.com/Wang-Jifei/tree_species_classification)
 
-**ArcGIS Story Map** [Here](https://drive.google.com/file/d/1sjyovMk0S3vtZpHqdvSkZvstKV419sVl/view?usp=sharing)
+**ArcGIS Story Map** [Here](https://arcg.is/0TKjyO0)
 
-**Download Full Project Report** [Here](https://drive.google.com/file/d/1Qg6SgEn_SV05s_ZAi84oDFodDS_bHvYJ/view?usp=sharing)
+**Download Full Project Report** [Here](https://drive.google.com/file/d/1wG8kzegdccw7UNkr5v5WCJ3k9fa8yvT_/view?usp=sharing)
