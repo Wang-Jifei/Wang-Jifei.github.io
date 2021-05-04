@@ -36,5 +36,6 @@ Building extraction from high-resolution remote sensing images is a long-standin
 
 ![avatar](/img/post/0_5.png)
 
-Download paper [Here](https://drive.google.com/file/d/1WFY89jp-8v0NVMt-AjcUB2QIzf_GsE0g/view?usp=sharing)
-Download dissertation slides(in Chinese) [Here](https://drive.google.com/file/d/1BkeIOiShrLHx60A8D37KG-5026ZqP99T/view?usp=sharing)
+**Download paper** [Here](https://drive.google.com/file/d/1WFY89jp-8v0NVMt-AjcUB2QIzf_GsE0g/view?usp=sharing)
+
+**Download dissertation slides(in Chinese)** [Here](https://drive.google.com/file/d/1BkeIOiShrLHx60A8D37KG-5026ZqP99T/view?usp=sharing)
