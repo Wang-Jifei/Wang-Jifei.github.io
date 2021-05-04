@@ -4,12 +4,12 @@ title:      The Restoration of Critically Endangered Swamp Cypress Trees in Laos
 subtitle:   GE5211 Dynamic Environments Group1
 date:       4/12/2020
 author:     Jifei Wang
-header-img: img/post/2_0.png
+header-img: img/post/2_10.png
 catalog:   true
 tags:
     - Coursework
 ---
-## Abstract
+## Introduction
 [Glyptostrobus pensilis](https://www.conifers.org/cu/Glyptostrobus.php) or Asian Swamp Cypress is a critically endangered conifer species, with remaining trees in the wild found mostly in Laos. It is important to study this species as surveys have shown that 400-1000 trees have been felled in the last ~50 years, and only less than 400 trees remain globally (Coffman, 2015). Glyptostrobus is also dubbed as a “living fossil” due to its great significance in the other fields of study like paleoclimate, paleoecology and geology.  
 ![avatar](/img/post/2_6.png)
 In this paper, we examined ecological, environmental and dendrochronology data collected from Glyptostrobus stands in [Nakai-Nam Theun (NNT) National Park](http://www.nnt.gov.la/) in Laos from 2015-2020. We performed Geodetector and one-way Analysis of Variance (ANOVA) analyses to investigate spatial variability of trees relative to soil moisture and elevation. Dendrochronological techniques were applied to investigate historical ecological patterns and give insight into factors controlling juvenile growth for critical for determining the most suitable conditions for propagation and transplanting.
