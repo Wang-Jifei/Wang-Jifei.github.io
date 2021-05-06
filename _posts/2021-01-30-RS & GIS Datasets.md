@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      RS & GIS Datasets
+title:      RS and GIS Datasets
 subtitle:   Useful links
 date:       01/30/2021
 author:     Jifei Wang
