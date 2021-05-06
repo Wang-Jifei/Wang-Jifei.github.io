@@ -22,8 +22,10 @@ We discovered that there are large spatial variations in soil moisture within st
 
 ![avatar](/img/post/2_2.png)
  *Map of current (2020) habitat suitability for Glyptostrobus in NNT National Park at 2.5 arcminute resolution. “Hotter” colours correspond to areas with higher habitat suitability. MaxEnt model utilised 19 WorldClim historical bioclimatic variables (averaged from 1970-2000), a digital elevation model and NDVI (Jan and Jul 2020). MaxEnt modelling and map were prepared by Xiang Jing Ang on 19 October 2020.*
+
 ![avatar](/img/post/2_3.png)
 *Map of future (2021-2040) habitat suitability for Glyptostrobus in NNT National Park at 2.5 arcminute resolution. “Hotter” colours correspond to areas with higher habitat suitability. MaxEnt model utilised 19 WorldClim future bioclimatic variables (2021-2040, GCM: BCC-CSM2-MR, SSP245, RCP4.5) and a digital elevation model. MaxEnt modelling was performed by Zhang Ting on 19 October 2020. Map was prepared by Xiang Jing Ang on 19 October 2020.*
+
 ![avatar](/img/post/2_4.png)
  *Map of change in habitat suitability for Glyptostrobus between 2020 and 2021-2040 at 2.5 arcminute resolution. “Hotter” colours correspond to areas with a decrease in habitat suitability; “Colder” colours correspond to areas with an increase in habitat suitability; ‘0’ value corresponds to no change. Raster analysis (using the local minus operator) and map were prepared by Xiang Jing Ang on 20 October 2020.*
 
