@@ -2,7 +2,7 @@
 layout:     post
 title:      RS and GIS Datasets
 subtitle:   Useful links
-date:       01/30/2021
+date:       01/01/2021
 author:     Jifei Wang
 header-img: img/post-bg0.jpg
 catalog:   true
@@ -14,7 +14,7 @@ tags:
 
 #### Remote sensing images
 
-**Landsat:** https://glovis.usgs.gov/ 
+**Landsat:** https://glovis.usgs.gov/
 
 - **[LEDAPS](https://daac.ornl.gov/MODELS/guides/LEDAPS.html)** https://landsat.gsfc.nasa.gov/data/more-free-data
 
