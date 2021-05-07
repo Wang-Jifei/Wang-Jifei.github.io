@@ -14,47 +14,47 @@ tags:
 
 #### Remote sensing images
 
-- **Landsat:** https://glovis.usgs.gov/
+- [**Landsat:**](https://glovis.usgs.gov/)
+- [**Landsat science products**](https://landsat.gsfc.nasa.gov/data/more-free-data)
+- [**LEDAPS**](https://daac.ornl.gov/MODELS/guides/LEDAPS.html)
 
-- **[LEDAPS](https://daac.ornl.gov/MODELS/guides/LEDAPS.html)** https://landsat.gsfc.nasa.gov/data/more-free-data
+- [**Sentinel:**](https://scihub.copernicus.eu/)
 
-- **Sentinel:** ESA https://scihub.copernicus.eu/
+- [**FORMOSAT-2:**](https://www.satimagingcorp.com/gallery/more-imagery/formosat-2/)
 
-- **FORMOSAT-2:** https://www.satimagingcorp.com/gallery/more-imagery/formosat-2/
+- [**Airbus Constellation:**](https://www.intelligence-airbusds.com/imagery/constellation/)
 
-- **Airbus Constellation:** https://www.intelligence-airbusds.com/imagery/constellation/
+- [**Pléiades**](https://www.intelligence-airbusds.com/imagery/constellation/pleiades/), [**SPOT**](https://www.intelligence-airbusds.com/imagery/constellation/spot/), [**Vision-1**](https://www.intelligence-airbusds.com/imagery/constellation/vision1/) and [**DMC Constellation**](https://www.intelligence-airbusds.com/imagery/constellation/dmc-constellation/) optical satellites as well as the [**Radar Constellation**](https://www.intelligence-airbusds.com/imagery/constellation/radar-constellation/)
 
-- [**Pléiades**](https://www.intelligence-airbusds.com/imagery/constellation/pleiades/), [**SPOT**](https://www.intelligence-airbusds.com/imagery/constellation/spot/), [**Vision-1**](https://www.intelligence-airbusds.com/imagery/constellation/vision1/) and [**DMC Constellation**](https://www.intelligence-airbusds.com/imagery/constellation/dmc-constellation/) optical satellites as well as the [**Radar Constellation**]
+- [**Global land surface satellite (GLASS) products:**](http://glass-product.bnu.edu.cn/)
 
-- **Global land surface satellite (GLASS) products:** http://glass-product.bnu.edu.cn/
+- [**USGS Data Collection:**](https://lpdaac.usgs.gov/data/get-started-data/collection-overview/)
 
-- **USGS Data Collection:** https://lpdaac.usgs.gov/data/get-started-data/collection-overview/
+- [**NOAA:**](https://ngdc.noaa.gov/ngdcinfo/onlineaccess.html) Oceanic and atmospheric products
 
-- **NOAA:** https://ngdc.noaa.gov/ngdcinfo/onlineaccess.html
-
-- **DMSP & VIIRS Data:** https://ngdc.noaa.gov/eog/download.html
+- [**DMSP & VIIRS Data:**](https://ngdc.noaa.gov/eog/download.html) Night-time satellite images
 
 
 
 #### Object detection and image segmentation
 
-- **INRIA aerial image Dataset:** https://project.inria.fr/aerialimagelabeling/
+- [**INRIA aerial image Dataset:**](https://project.inria.fr/aerialimagelabeling/) The images cover dissimilar urban settlements, ranging from densely populated areas (e.g., San Francisco’s financial district) to alpine towns (e.g,. Lienz in Austrian Tyrol).
 
-- **DOTA:** A Large-scale Dataset for Object Detection in Aerial Images https://captain-whu.github.io/DOTA/dataset.html
+- [**DOTA:**](https://captain-whu.github.io/DOTA/dataset.html) A Large-scale Dataset for Object Detection in Aerial Images
 
-- **Massachusetts Buildings Dataset:** https://www.cs.toronto.edu/~vmnih/data/
+- [**Massachusetts Buildings Dataset:**](https://www.cs.toronto.edu/~vmnih/data/)
 
-- **UC Merced Land Use Dataset:** http://weegee.vision.ucmerced.edu/datasets/landuse.html
+- [**UC Merced Land Use Dataset:**](http://weegee.vision.ucmerced.edu/datasets/landuse.html) This is a 21 class land use image dataset meant for research purposes.
 
-- **RSSCN7 Dataset:** https://sites.google.com/site/qinzoucn/documents
+- [**RSSCN7 Dataset:**](https://sites.google.com/site/qinzoucn/documents) This dataset contains 2800 remote sensing images which are from 7 typical scene categories.
 
-- **AID:** a large-scale dataset for aerial scene classification https://captain-whu.github.io/AID/
+- [**AID:**](https://captain-whu.github.io/AID/) A Benchmark Dataset for Performance Evaluation of Aerial Scene Classification
 
-- **SIRI-WHU Dataset:** http://www.lmars.whu.edu.cn/prof_web/zhongyanfei/e-code.html
+- [**SIRI-WHU Dataset:**](http://www.lmars.whu.edu.cn/prof_web/zhongyanfei/e-code.html) This is a 12-class Google image dataset of SIRI-WHU meant for research purposes.
 
-- **DEEPGLOBE - CVPR18:** http://deepglobe.org/challenge.html
+- [**DEEPGLOBE - CVPR18:**](http://deepglobe.org/challenge.html)
 
-- **NWPU-RESISC45 Dataset:** https://arxiv.org/abs/1703.00121
+- [**NWPU-RESISC45 Dataset:**](https://arxiv.org/abs/1703.00121) A publicly available benchmark for Remote Sensing Image Scene Classification (RESISC)
 
 
 
