@@ -108,5 +108,8 @@ friends: [
     },{
         title: "Nasa",
         href: "https://www.nasa.gov/"
+    },{
+        title: "ESA",
+        href: "http://www.esa.int/"
     }
 ]

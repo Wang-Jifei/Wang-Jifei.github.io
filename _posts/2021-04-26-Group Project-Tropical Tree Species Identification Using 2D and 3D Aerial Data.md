@@ -43,4 +43,4 @@ The previous studies concerning tree species classification using UAV datasets h
 
 **ArcGIS Story Map** [Here](https://arcg.is/0TKjyO0)
 
-**Download Full Project Report** [Here](https://drive.google.com/file/d/1XrsErUPBEFw1gdlU1pEUS71AAigG4qB5/view?usp=sharing)
+**Download Full Project Report** [Here](https://drive.google.com/file/d/1pynPGrhSCY0zjI66yJb_sz5aJJaEww-V/view?usp=sharing)
