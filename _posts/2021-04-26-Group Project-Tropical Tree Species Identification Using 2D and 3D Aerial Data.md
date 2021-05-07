@@ -2,7 +2,7 @@
 layout:     post
 title:      Tropical Tree Species Identification Using 2D and 3D Aerial Data
 subtitle:   GE5219 Spatial Programming Group6
-date:       23/04/2021
+date:       26/04/2021
 author:     Jifei Wang
 header-img: img/post/3_0.png
 catalog:   true
