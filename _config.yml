@@ -2,16 +2,16 @@
 title: Spatial Dynamics
 SEOTitle: Wang Jifei
 header-img: img/bg.jpg
-email: jifeiwang@link.cuhk.edu.hk
-description:  "Space, Place, Population, Mobility"
-keyword: "Space, Place, Population, Mobility"
+email: jifeiwang@u.nus.edu
+description:  "Space, Information, Time, Envrionment"
+keyword: "Space, Information, Time, Envrionment"
 url: "https:/Wang-Jifei.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/Wang-Jifei/Wang-Jifei.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Wang Jifei,PhD student in GRM, CUHK"
+sidebar-about-description: "Wang Jifei, Master student in Geography, NUS"
 sidebar-avatar: /img/wangjifei.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -101,7 +101,7 @@ service-worker: true
 friends: [
     {
         title: "Homepage",
-        href: "https://wang-jifei.github.io/3-about/"
+        href: "https://fass.nus.edu.sg/geog/people/wang-jifei/"
     },{
         title: "Esri",
         href: "https://www.esri.com/en-us/home"
