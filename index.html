@@ -1,176 +1,60 @@
 ---
 layout: page
-title: "Home"
-description: "Learn more about me"
-header-img: "img/satellite1.jpg"
+description: "Space, Information, Time, Envrionment"
 ---
 
-<!-- Language Selector -->
-<!-- <select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
-    <option value="0" selected> 中文 Chinese </option>
-    <option value="1"> 英文 English </option>
-</select> -->
+<!--
+<ul class="pager">
 
-<!-- Chinese Version -->
-<div class="zh post-container">
+    <li class="next">
+        <a href="https://klovien.github.io/1-resources/" data-toggle="tooltip" data-placement="top" title="学习资料集">
+                        开始学习<br>
+        </a>
+    </li>
 
-    <!--copied from markdown -->
-    <blockquote><p>Everything is related to everything else, but near things are more related than distant things.<br>
-    -- Waldo Tobler</p></blockquote>
+    <li class="next">
+        <a href="https://klovien.github.io/2018/12/10/三叶语简介/" data-toggle="tooltip" data-placement="top" title="三叶语简介">
+                        了解更多<br>
+        </a>
+    </li>
 
-    <p>Hi there! Welcome to Jifei's blog website.
+</ul>
+-->
 
-    <p>I am a PhD student at the Department of Geography and Resource Management(GRM) in the Chinese University of Hong Kong. </p>
-    <p>I studied Remote Sensing and GIS for my bachelor's degree. During my master, I attempted to explore real-world applications relating to critical environmental issues (e.g., air pollution, UHI effects, and forest degradation) using RS & GIS datasets and techniques.</p>
-    <p>My current research interests include intercity migration in China and population synthesis using big data.</p>
-
-    <p><strong><a href="{{site.baseurl}}/files/CV_JF_Mar2026.pdf">Download my detailed CV </a></strong></p>
-
-    <p></p>
-
-    <h3>Education Background</h3>
-    <h4><strong>09/2022 - present</strong>, PhD, The Chinese University of Hong Kong</h4>
-    <ul>
-    <li><strong>Thesis title:</strong> Understanding intercity youth migration based on geotagged social media data </li>
-    <li><strong>Advisor:</strong> Prof. Shen Jianfa</li>
-
-    </ul>
-    <h4><strong>08/2020 - present</strong>, M.Soc.Sci, National University of Singapore</h4>
-    <ul>
-    <li><strong>Thesis title:</strong> Investigating the effect of landscape structures and urban functions on the urban heat island phenomenon using 3D GIS and RS techniques</li>
-    <li><strong>Advisor:</strong> Assoc. Prof. Feng Chen-chieh</li>
-
-    </ul>
-    <h4><strong>09/2016 - 06/2020</strong>, B.S., Wuhan University, China </h4>
-    <ul>
-    <li><strong>Thesis title:</strong> Building Extraction from GF-2 Satellite Image Based on Deep Learning Method</li>
-    <li><strong>Advisor:</strong> Prof. Zhao Shuangming</li>
-    </ul>
-
-    <h3>Research Interests</h3>
-    <ul>
-    <li>Population and Migration</li>
-    <li>Computational Demography</li>
-    <li>Social Meida Data Mininig</li>
-    <li>City Network Analysis</li>
-    </ul>
-
-    <h3>Publications</h3>
-    <ul>
-    Wang, J., Feng, C.-C., & Guo, Z. (2023). A novel graph-based framework for classifying urban functional zones with multisource data and human mobility patterns. Remote Sensing, 15(3), 730.
-    </ul>
-    <ul>
-    Weiyu, L., Yuanyuan, X., Tong, S., & Jifei, W. (2022). Air quality dynamics and urban heat island effects during COVID-19. In Geospatial Data Analytics and Urban Applications (pp. 33–59). Springer Nature Singapore Singapore.
-    </ul>
-
-
+{% for post in paginator.posts %}
+<div class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title">
+            {{ post.title }}
+        </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+        <div class="post-content-preview">
+            {{ post.content | strip_html | truncate:200 }}
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+    </p>
 </div>
+<hr>
+{% endfor %}
 
-<!-- English Version -->
-<!-- <div class="en post-container">
-    <blockquote><p>Yet another iOS Developer. <br>
-    Yet another Life-long Student.</p></blockquote>
-
-    <p>Hi, I am <strong>Baiying Qiu</strong>，you can call me <strong>BY</strong>. I am an iOS software engineer and currently working in Xiamen</p>
-
-    <p>This is my personal blog, through making Github Pages and Jekyll.My GitHub  👉 <a href="http://github.com/qiubaiying">Github·BY</a>.</p>
-
-    <p>I am a sports enthusiast, I like fitness, running and boxing.</p>
-
-    <h5>Talks</h5>
-
-    <ul>
-    <li><a href="https://github.com">GitHub</a></li>
-    <li><a href="http://jekyll.com.cn/">jekyll</a></li>
-    <li><a href="https://pages.github.com/">GitHub Pages</a></li>
-    <li><a href="https://qiubaiying.github.io">BY</a></li>
-    </ul>
-</div> -->
-
-<!-- Handle Language Change -->
-<script type="text/javascript">
-    // get nodes
-    var $zh = document.querySelector(".zh");
-    var $en = document.querySelector(".en");
-    var $select = document.querySelector("select");
-
-    // bind hashchange event
-    window.addEventListener('hashchange', _render);
-
-    // handle render
-    function _render(){
-        var _hash = window.location.hash;
-        // en
-        if(_hash == "#en"){
-            $select.selectedIndex = 1;
-            $en.style.display = "block";
-            $zh.style.display = "none";
-        // zh by default
-        }else{
-            // not trigger onChange, otherwise cause a loop call.
-            $select.selectedIndex = 0;
-            $zh.style.display = "block";
-            $en.style.display = "none";
-        }
-    }
-
-    // handle select change
-    function onLanChange(index){
-        if(index == 0){
-            window.location.hash = "#zh"
-        }else{
-            window.location.hash = "#en"
-        }
-    }
-
-    // init
-    _render();
-</script>
-
-
-<!-- Gitalk 评论 start  -->
-{% if site.gitalk.enable %}
-<!-- Gitalk link  -->
-<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
-
-<div id="gitalk-container"></div>
-    <script type="text/javascript">
-    var gitalk = new Gitalk({
-    clientID: '{{site.gitalk.clientID}}',
-    clientSecret: '{{site.gitalk.clientSecret}}',
-    repo: '{{site.gitalk.repo}}',
-    owner: '{{site.gitalk.owner}}',
-    admin: ['{{site.gitalk.admin}}'],
-    distractionFreeMode: {{site.gitalk.distractionFreeMode}},
-    id: 'home',
-    });
-    gitalk.render('gitalk-container');
-</script>
-{% endif %}
-<!-- Gitalk end -->
-
- <!-- disqus 评论框 start  -->
-{% if site.disqus.enable %}
-
-<div class="comment">
-    <div id="disqus_thread" class="disqus-thread">
-    </div>
-</div>
-<!-- disqus 评论框 end -->
-
-<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = "{{site.disqus.username}}";
-    var disqus_identifier = "{{site.disqus.username}}/{{page.url}}";
-    var disqus_url = "{{site.url}}{{page.url}}";
-
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<!-- disqus 公共JS代码 end -->
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    </li>
+    {% endif %}
+</ul>
 {% endif %}
