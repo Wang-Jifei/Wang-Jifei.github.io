@@ -100,7 +100,7 @@ service-worker: true
 # 友情链接，请尽量不要删除，谢谢！
 friends: [
     {
-        title: "Homepage",
+        title: "Blog",
         href: "https://wang-jifei.github.io/3-about/"
     },{
         title: "Esri",
