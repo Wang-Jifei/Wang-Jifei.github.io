@@ -11,10 +11,10 @@ github_repo: "https://github.com/Wang-Jifei/Wang-Jifei.github.io.git" # you code
 
 # Navigation bar (order = display order). Pages not listed here are hidden from the nav.
 nav:
-  - title: Home
+  - title: About
     url: /
-  - title: Blog
-    url: /blog/
+  - title: Home
+    url: /home/
   - title: Resources
     url: /1-resources/
 

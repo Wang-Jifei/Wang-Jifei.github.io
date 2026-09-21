@@ -13,8 +13,9 @@
 | 路径 | 作用 |
 |---|---|
 | `_config.yml` | 站点标题、描述、头图、侧边栏头像与简介、Gitalk 评论、友情链接（friends）、分页等全局配置 |
-| `index.html` | 网站主页 `/`：个人简介（原 About 内容）、教育、研究兴趣、论文、会议报告、CV 下载、Gitalk 评论 |
-| `home.html` | 导航 “Home” → `/home/`：列出全部 `_posts` 文章 |
+| `index.html` | 导航 “Home” → 网站主页 `/`：个人简介（原 About 内容）、教育、研究兴趣、论文、会议报告、CV 下载、Gitalk 评论 |
+| `blog.html` | 导航 “Blog” → `/blog/`：列出全部 `_posts` 文章 |
+| `home.html` | 跳转页：`/home/` → `/blog/` |
 | `1-resources.html` | 导航 “Resources”：期刊/数据/工具链接 |
 | `2-tags.html` | 标签归档页 `/2-tags/`（已从导航隐藏，仅供文章标签链接使用） |
 | `3-about.html` | 跳转页：`/3-about/` → `/` |
@@ -25,7 +26,7 @@
 | `_layouts/post.html` | 文章页：头图、标签、上一篇/下一篇、Gitalk、目录（catalog） |
 | `_layouts/keynote.html` | 幻灯片式文章布局（当前未使用） |
 | `_includes/head.html` | `<head>`：SEO 标题、CSS、favicon、manifest、canonical |
-| `_includes/nav.html` | 顶部导航：按 `_config.yml` 里的 `nav:` 列表生成（当前 About / Home / Resources） |
+| `_includes/nav.html` | 顶部导航：按 `_config.yml` 里的 `nav:` 列表生成（当前 Home / Blog / Resources） |
 | `_includes/footer.html` | 页脚社交链接、版权；加载 jQuery/Bootstrap/hux-blog.js、Service Worker、标签云、目录、统计脚本 |
 | `_posts/` | 文章（文件名须为 `YYYY-MM-DD-标题.md`） |
 | `css/` `js/` `fonts/` | 编译后的静态资源（`hux-blog.min.css` 由 `less/` 经 Grunt 生成；直接改 css 需同时改 `.css` 和 `.min.css`） |

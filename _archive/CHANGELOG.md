@@ -30,3 +30,10 @@
 - `pwa/manifest.json`：名称 “BY Blog” → “Wang Jifei”
 - `CNAME`：删除空文件（未使用自定义域名）
 - 检查结果：0 error，0 warning
+
+## 2026-09-21 — 导航改名：About → Home，Home → Blog
+备份位置：`_archive/20260921-132040_rename-nav-home-blog/`
+- `_config.yml`：`nav` 改为 Home（`/`）/ Blog（`/blog/`）/ Resources（`/1-resources/`）
+- `index.html`：页面标题 About → Home（内容不变，仍是个人简介）
+- `blog.html`（新增）：文章列表，网址 `/blog/`，标题 Blog
+- `home.html`：改为跳转页，已上线的 `/home/` 自动跳到 `/blog/`
