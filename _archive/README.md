@@ -28,7 +28,7 @@
 | `_includes/head.html` | `<head>`：SEO 标题、CSS、favicon、manifest、canonical |
 | `_includes/nav.html` | 顶部导航：按 `_config.yml` 里的 `nav:` 列表生成（当前 Home / Blog / Resources） |
 | `_includes/footer.html` | 页脚社交链接、版权；加载 jQuery/Bootstrap/hux-blog.js、Service Worker、标签云、目录、统计脚本 |
-| `_posts/` | 文章（文件名须为 `YYYY-MM-DD-标题.md`） |
+| `_posts/` | 文章（文件名须为 `YYYY-MM-DD-标题.md`）；修改方法见 `_archive/BLOG_GUIDE.md` |
 | `css/` `js/` `fonts/` | 编译后的静态资源（`hux-blog.min.css` 由 `less/` 经 Grunt 生成；直接改 css 需同时改 `.css` 和 `.min.css`） |
 | `less/` `Gruntfile.js` `package.json` | 样式源文件与构建脚本（已在 exclude 中，不发布） |
 | `img/` `img/post/` | 头图、头像、文章图片 |

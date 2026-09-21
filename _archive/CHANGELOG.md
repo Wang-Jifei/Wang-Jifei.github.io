@@ -37,3 +37,14 @@
 - `index.html`：页面标题 About → Home（内容不变，仍是个人简介）
 - `blog.html`（新增）：文章列表，网址 `/blog/`，标题 Blog
 - `home.html`：改为跳转页，已上线的 `/home/` 自动跳到 `/blog/`
+
+## 2026-09-21 — 新增 4 篇会议/活动博客
+（均为新增文件，没有修改已有文件，因此无需备份）
+- `_posts/2026-03-21-AAG-2026-Annual-Meeting-San-Francisco.md` + `img/post/aag2026/`（标题页、报告照片）
+- `_posts/2026-05-19-CUHK-3MT-Competition-2026.md` + `img/post/3mt2026/`（海报、3MT 幻灯片、4 张照片、Google Drive 录像嵌入）
+- `_posts/2026-06-25-ICPG-2026-Nanjing.md` + `img/post/icpg2026/`（标题页、会场、合影）
+- `_posts/2026-07-20-Geoinformatics-2026-CPGIS-Singapore.md` + `img/post/cpgis2026/`（标题页、报告照片、NUS 照片）
+- 图片处理：由 PPT 首页导出 1600px JPG；照片缩至长边 1600px（NUS 竖图 1200px），HEIC 转 JPG，并去除 EXIF（含定位信息）
+- 新增 `_archive/BLOG_GUIDE.md`：修改文字/图片/视频的指南
+- 新标签：Conference、Competition
+- 检查结果：0 error，0 warning
