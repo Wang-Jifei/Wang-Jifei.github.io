@@ -4,7 +4,7 @@ title:      CUHK Three Minute Thesis (3MT®) Competition 2026
 subtitle:   Where Young People Move and Why
 date:       2026-05-19
 author:     Jifei Wang
-header-img: img/post/3mt2026/3mt-header.jpg
+header-img: img/post/3mt2026/3mt-all01.jpg
 header-mask: 0.4
 catalog:    true
 tags:

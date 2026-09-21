@@ -48,3 +48,10 @@
 - 新增 `_archive/BLOG_GUIDE.md`：修改文字/图片/视频的指南
 - 新标签：Conference、Competition
 - 检查结果：0 error，0 warning
+
+## 2026-09-21 — 更换 4 篇会议博客的顶部背景图
+备份位置：`_archive/20260921-151452_header-images/`（4 篇文章旧版）
+- 新增背景图（长边 1920px，去除 EXIF）：`img/post/3mt2026/3mt-header.jpg`（3MT-all00）、`img/post/aag2026/aag-header.jpg`（AAG-scene）、`img/post/icpg2026/icpg-header.jpg`（ICPG-NJU）、`img/post/cpgis2026/cpgis-header.jpg`（CPGIS-SCENE）
+- 4 篇文章的 `header-img` 改为上述图片；背景图不出现在正文中
+- CPGIS 文章正文末尾新增与硕士导师合影 `img/post/cpgis2026/cpgis-master-supervisor.jpg`
+- 检查结果：0 error，0 warning

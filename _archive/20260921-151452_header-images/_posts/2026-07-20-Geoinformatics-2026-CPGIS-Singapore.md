@@ -4,7 +4,7 @@ title:      Geoinformatics 2026 (CPGIS)
 subtitle:   Emotional Geographies of Youth Migration
 date:       2026-07-20
 author:     Jifei Wang
-header-img: img/post/cpgis2026/cpgis-header.jpg
+header-img: img/post/cpgis2026/cpgis-presentation.jpg
 header-mask: 0.4
 catalog:    true
 tags:
@@ -35,8 +35,5 @@ tags:
 
 ![Back at NUS](/img/post/cpgis2026/cpgis-nus.jpg)
 *Back at NUS, my alma mater*
-
-![With my master's supervisor](/img/post/cpgis2026/cpgis-master-supervisor.jpg)
-*With my master's supervisor, Assoc. Prof. Feng Chen-chieh, at NUS*
 
 #### More information: [Geoinformatics 2026](https://blog.nus.edu.sg/cpgis2026/)

@@ -5,10 +5,10 @@
 
 | 文章 | 文件 | 图片文件夹 |
 |---|---|---|
-| AAG 2026（旧金山） | `_posts/2026-03-21-AAG-2026-Annual-Meeting-San-Francisco.md` | `img/post/aag2026/` |
-| CUHK 3MT 2026 | `_posts/2026-05-19-CUHK-3MT-Competition-2026.md` | `img/post/3mt2026/` |
-| ICPG 2026（南京） | `_posts/2026-06-25-ICPG-2026-Nanjing.md` | `img/post/icpg2026/` |
-| Geoinformatics 2026 / CPGIS（新加坡） | `_posts/2026-07-20-Geoinformatics-2026-CPGIS-Singapore.md` | `img/post/cpgis2026/` |
+| AAG 2026（旧金山）；背景图 aag-header.jpg | `_posts/2026-03-21-AAG-2026-Annual-Meeting-San-Francisco.md` | `img/post/aag2026/` |
+| CUHK 3MT 2026；背景图 3mt-header.jpg | `_posts/2026-05-19-CUHK-3MT-Competition-2026.md` | `img/post/3mt2026/` |
+| ICPG 2026（南京）；背景图 icpg-header.jpg | `_posts/2026-06-25-ICPG-2026-Nanjing.md` | `img/post/icpg2026/` |
+| Geoinformatics 2026 / CPGIS（新加坡）；背景图 cpgis-header.jpg | `_posts/2026-07-20-Geoinformatics-2026-CPGIS-Singapore.md` | `img/post/cpgis2026/` |
 
 文件名开头的日期（YYYY-MM-DD）决定文章网址和在 Blog 页的排序，改文件名会改网址。
 

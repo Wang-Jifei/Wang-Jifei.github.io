@@ -4,7 +4,7 @@ title:      AAG 2026 Annual Meeting
 subtitle:   Mapping Population Mobility and Urban Hierarchy in China through Social Media Check-ins
 date:       2026-03-21
 author:     Jifei Wang
-header-img: img/post/aag2026/aag-header.jpg
+header-img: img/post/aag2026/aag-presentation.jpg
 header-mask: 0.4
 catalog:    true
 tags:
