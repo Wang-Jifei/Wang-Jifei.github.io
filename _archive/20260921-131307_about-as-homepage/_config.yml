@@ -5,22 +5,13 @@ header-img: img/bg.jpg
 email: jifeiwang@link.cuhk.edu.hk
 description:  "Migration & Population in Digital Era"
 keyword: "Migration & Population in Digital Era"
-url: "https://wang-jifei.github.io"          # your host, for absolute URL
+url: "https:/Wang-Jifei.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/Wang-Jifei/Wang-Jifei.github.io.git" # you code repository
 
-# Navigation bar (order = display order). Pages not listed here are hidden from the nav.
-nav:
-  - title: About
-    url: /
-  - title: Home
-    url: /home/
-  - title: Resources
-    url: /1-resources/
-
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Wang Jifei, PhD Candidate in GRM, CUHK"
+sidebar-about-description: "Wang Jifei, PhD student in GRM, CUHK"
 sidebar-avatar: /img/wangjifei.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -40,7 +31,7 @@ RSS: false
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 permalink: pretty
-# paginate: 10                          # disabled: "/" is now the About page, post list lives at /home/
+paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
@@ -48,7 +39,7 @@ anchorjs: true                          # if you want to customize anchor. check
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
-plugins: [jekyll-paginate]
+gems: [jekyll-paginate]
 
 
 
@@ -95,7 +86,7 @@ gitalk:
 
 
 # Featured Tags
-featured-tags: false                    # 是否使用首页标签
+featured-tags: true                     # 是否使用首页标签
 featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
 
 

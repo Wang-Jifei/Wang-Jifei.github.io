@@ -18,9 +18,9 @@ header-img: "img/tag-bg-o.jpg"
     <blockquote><p>Everything is related to everything else, but near things are more related than distant things.<br>
     -- Waldo Tobler</p></blockquote>
 
-    <p>Hi there! Welcome to Jifei's website.</p>
+    <p>Hi there! Welcome to Jifei's blog website.
 
-    <p>I am a PhD candidate at the Department of Geography and Resource Management (GRM), The Chinese University of Hong Kong.</p>
+    <p>I am a PhD student at the Department of Geography and Resource Management(GRM) in the Chinese University of Hong Kong. </p>
     <p>I studied Remote Sensing and GIS for my bachelor's degree. During my master, I attempted to explore real-world applications relating to critical environmental issues (e.g., air pollution, UHI effects, and forest degradation) using RS & GIS datasets and techniques.</p>
     <p>My current research interests include intercity migration in China and population synthesis using big data.</p>
 
@@ -35,7 +35,7 @@ header-img: "img/tag-bg-o.jpg"
     <li><strong>Advisor:</strong> Prof. Shen Jianfa</li>
 
     </ul>
-    <h4><strong>08/2020 - 08/2022</strong>, M.Soc.Sci, National University of Singapore</h4>
+    <h4><strong>08/2020 - present</strong>, M.Soc.Sci, National University of Singapore</h4>
     <ul>
     <li><strong>Thesis title:</strong> Investigating the effect of landscape structures and urban functions on the urban heat island phenomenon using 3D GIS and RS techniques</li>
     <li><strong>Advisor:</strong> Assoc. Prof. Feng Chen-chieh</li>
@@ -51,32 +51,88 @@ header-img: "img/tag-bg-o.jpg"
     <ul>
     <li>Population and Migration</li>
     <li>Computational Demography</li>
-    <li>Social Media Data Mining</li>
+    <li>Social Meida Data Mininig</li>
     <li>City Network</li>
     </ul>
 
     <h3>Publications</h3>
     <ul>
-    <li>Wang, J., Feng, C.-C., & Guo, Z. (2023). A novel graph-based framework for classifying urban functional zones with multisource data and human mobility patterns. <em>Remote Sensing</em>, 15(3), 730.</li>
-    <li>Weiyu, L., Yuanyuan, X., Tong, S., & Jifei, W. (2022). Air quality dynamics and urban heat island effects during COVID-19. In <em>Geospatial Data Analytics and Urban Applications</em> (pp. 33–59). Springer Nature Singapore.</li>
+    Wang, J., Feng, C.-C., & Guo, Z. (2023). A novel graph-based framework for classifying urban functional zones with multisource data and human mobility patterns. Remote Sensing, 15(3), 730. 
     </ul>
-
-    <h3>Conference Presentations</h3>
     <ul>
-    <li>Wang, J. (Expected Summer 2026). [Abstract Accepted]. CPGIS 2026 Annual Meeting, Singapore.</li>
-    <li>Wang, J. (Mar 2026). Mapping Population Mobility and Urban Hierarchy in China through Social Media Check-ins. 2026 AAG Annual Meeting, San Francisco, USA.</li>
-    <li>Wang, J. (Oct 2025). Identifying Intercity Migration Patterns based on Weibo Check-in Data. 2025 Annual Conference of Population Geography of China, Guangzhou, China.</li>
+    Weiyu, L., Yuanyuan, X., Tong, S., & Jifei, W. (2022). Air quality dynamics and urban heat island effects during COVID-19. In Geospatial Data Analytics and Urban Applications (pp. 33–59). Springer Nature Singapore Singapore. 
     </ul>
 
 
 </div>
 
+<!-- English Version -->
+<!-- <div class="en post-container">
+    <blockquote><p>Yet another iOS Developer. <br>
+    Yet another Life-long Student.</p></blockquote>
+
+    <p>Hi, I am <strong>Baiying Qiu</strong>，you can call me <strong>BY</strong>. I am an iOS software engineer and currently working in Xiamen</p>
+
+    <p>This is my personal blog, through making Github Pages and Jekyll.My GitHub  👉 <a href="http://github.com/qiubaiying">Github·BY</a>.</p>
+
+    <p>I am a sports enthusiast, I like fitness, running and boxing.</p>
+
+    <h5>Talks</h5>
+
+    <ul>
+    <li><a href="https://github.com">GitHub</a></li>
+    <li><a href="http://jekyll.com.cn/">jekyll</a></li>
+    <li><a href="https://pages.github.com/">GitHub Pages</a></li>
+    <li><a href="https://qiubaiying.github.io">BY</a></li>
+    </ul>
+</div> -->
+
+<!-- Handle Language Change -->
+<script type="text/javascript">
+    // get nodes
+    var $zh = document.querySelector(".zh");
+    var $en = document.querySelector(".en");
+    var $select = document.querySelector("select");
+
+    // bind hashchange event
+    window.addEventListener('hashchange', _render);
+
+    // handle render
+    function _render(){
+        var _hash = window.location.hash;
+        // en
+        if(_hash == "#en"){
+            $select.selectedIndex = 1;
+            $en.style.display = "block";
+            $zh.style.display = "none";
+        // zh by default
+        }else{
+            // not trigger onChange, otherwise cause a loop call.
+            $select.selectedIndex = 0;
+            $zh.style.display = "block";
+            $en.style.display = "none";
+        }
+    }
+
+    // handle select change
+    function onLanChange(index){
+        if(index == 0){
+            window.location.hash = "#zh"
+        }else{
+            window.location.hash = "#en"
+        }
+    }
+
+    // init
+    _render();
+</script>
+
 
 <!-- Gitalk 评论 start  -->
 {% if site.gitalk.enable %}
 <!-- Gitalk link  -->
-<link rel="stylesheet" href="https://unpkg.com/gitalk@1.8.0/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk@1.8.0/dist/gitalk.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
 
 <div id="gitalk-container"></div>
     <script type="text/javascript">
